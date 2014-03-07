@@ -1,4 +1,4 @@
-# Slide LoadS
+# Slide Load
 Slide Load is a jQuery plugin that loads AJAX content into an element which already contains content, and then animates the initial content away, replacing it with the new content.
 
 ## Basic Usage
