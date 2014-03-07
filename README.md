@@ -50,7 +50,7 @@ $(Document).on("pl.clone", function(e, $el) {
 ```
 
 ```js
-$(Document).on("pl.animate", function(e, $el) {
+$("#cool-element").on("pl.animate", function(e, $el) {
     console.log("About to start animating the old content away!");
 });
 ```
@@ -70,4 +70,5 @@ There are currently no methods available to use outside of the loader.
 ##Todo
 
 * Abstract transition method so that additional transitions can be added from outside the loader.
+* Make all events fire on the initial element.
 
