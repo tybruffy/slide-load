@@ -209,7 +209,8 @@
 		 * 
 		 * @param  {jQuery} $cntr A jQuery object containing the container element.
 		 * 
-		 * @return {jQuery}       A jQuery object containing the new elementif found, otherwise the initial object is returned.
+		 * @return {jQuery}       A jQuery object containing the new element if found, 
+		 * otherwise the initial object is returned.
 		 */
 		_proxy_check: function($cntr) {
 			var proxy = $cntr.data("load-proxy");
