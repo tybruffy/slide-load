@@ -11,9 +11,8 @@
 	 * placed inside the target element, but in certain special cases it can be used
 	 * to replace the invoking element.
 	 *
-	 * @todo Needs to be refactored with more .apply and .call methods so that it 
-	 * can use this instead of referring o the global pushLoad object.
-	 * @todo Consider refactoring using the jQueryUI widget factory.
+	 * @todo Add method for adding custom transitions.
+	 * @todo Make all events trigger on the called element.
 	 * 
 	 * @type {Object}
 	 */
@@ -210,7 +209,7 @@
 		 * @param  {jQuery} $cntr A jQuery object containing the container element.
 		 * 
 		 * @return {jQuery}       A jQuery object containing the new element if found, 
-		 * otherwise the initial object is returned.
+		 *                        otherwise the initial object is returned.
 		 */
 		_proxy_check: function($cntr) {
 			var proxy = $cntr.data("load-proxy");
